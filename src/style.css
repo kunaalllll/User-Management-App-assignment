@@ -1,0 +1,167 @@
+ .container{
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+    gap: 2rem;
+  } 
+  
+  .card{
+    border: 1px solid black;
+    border-radius: 2rem;
+    padding: 2rem;
+  }
+  
+  .edit-btn{
+    display: flex;
+    justify-content: space-between;
+  } */
+ 
+  /* user item */
+
+  .user-item-card {
+    width: 300px;
+    background-color: #ffffff;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    padding: 16px;
+    margin-bottom: 16px;
+  }
+  
+  .user-item-card h3 {
+    margin-top: 0;
+    margin-bottom: 8px;
+  }
+  
+  .user-item-card p {
+    margin-top: 0;
+    margin-bottom: 4px;
+  }
+  
+  .user-item-card button {
+    padding: 8px 16px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  .user-item-card button.edit-button {
+    background-color: #4caf50;
+    color: #ffffff;
+    margin-right: 1rem;
+  }
+  
+  .user-item-card button.edit-button:hover {
+    background-color: #45a049;
+  }
+  
+  .user-item-card button.delete-button {
+    background-color: #ff0000;
+    color: #ffffff;
+    margin-left: 1rem;
+  }
+  
+  .user-item-card button.delete-button:hover {
+    background-color: #cc0000;
+  }
+
+/* user app */
+.user-app-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  min-height: 100vh;
+}
+
+.navbar {
+  background-color: #f0f0f0;
+  padding: 16px;
+  width: 100%;
+}
+
+.navbar-title {
+  margin: 0;
+}
+
+.content-container {
+  display: flex;
+  justify-content: center;
+  gap: 24px;
+  margin-top: 24px;
+}
+
+.section-title {
+  margin-top: 0;
+}
+
+.user-form-container,
+.user-list-container {
+  background-color: #ffffff;
+  padding: 24px;
+  border-radius: 8px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  flex: 1;
+}
+
+.user-list {
+  padding: 0;
+  list-style-type: none;
+}
+
+.user-list-container {
+  max-height: 500px;
+  overflow-y: auto;
+}
+
+/* user form */
+.user-form-container {
+  width: 300px;
+  background-color: #ffffff;
+  border-radius: 8px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  padding: 24px;
+  margin-bottom: 24px;
+}
+
+.form-row {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 16px;
+}
+
+.form-label {
+  margin-bottom: 8px;
+  font-weight: bold
+}.form-input {
+  padding: 8px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+.error {
+  color: red;
+  font-size: 14px;
+  margin-top: 4px;
+}
+
+.add-user-button {
+  background-color: #4caf50;
+  color: #fff;
+  border: none;
+  border-radius: 4px;
+  padding: 8px 16px;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+.add-user-button:hover {
+  background-color: #45a049;
+}
+
+/* user list */
+
+.user-list{
+  margin: 3rem;
+  gap: 6rem;
+  
+}
